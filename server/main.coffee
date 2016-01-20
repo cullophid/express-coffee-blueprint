@@ -1,4 +1,5 @@
 config = require 'config'
+require './globals'
 server = require './'
 
 server.listen config.port, () =>
